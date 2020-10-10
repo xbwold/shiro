@@ -2,11 +2,10 @@ package com.wold.shiro.dao;
 
 import com.wold.shiro.pojo.User;
 import org.apache.ibatis.annotations.Mapper;
-import org.springframework.stereotype.Repository;
+
 
 import java.util.Set;
 
-@Repository
 @Mapper
 public interface UserDao {
     public User getUserByName(String name);
